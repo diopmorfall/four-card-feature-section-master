@@ -42,11 +42,10 @@ body .page .footer { position: absolute; bottom: 2%; }
 
 body .page .footer .attribution { padding: 10px; }
 
-@media only screen and (min-width: 950px) { body .page { width: 85%; border: 2px solid hotpink; }
+@media only screen and (min-width: 950px) { body .page { width: 85%; }
   body .page .intro { margin-bottom: 5%; }
   body .page .intro p { width: 45%; margin: auto; }
   body .page .content { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   body .page .content > .card, body .page .content > div, body .page .content .desktop-column { width: 30.5%; }
-  body .page .content .desktop-column { border: 1px solid lime; }
   body .page .content .desktop-column > .card:last-of-type, body .page .content .content.desktop-column > div:last-of-type { margin-bottom: 0; }
   body .page .footer .attribution { text-align: center; } }

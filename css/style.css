@@ -2,26 +2,42 @@
 
 .flex-justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-.card, body .page .content div { height: 250px; padding: 30px; margin-bottom: 10%; border-radius: 15px; -webkit-box-shadow: 0 11px 5px 0px; box-shadow: 0 11px 5px 0px; }
+.card, body .page .content > div { height: 240px; padding: 30px; margin-bottom: 6.66667%; border-radius: 15px; -webkit-box-shadow: 0 15px 25px 0px #dce4ef; box-shadow: 0 15px 25px 0px #dce4ef; font-size: 13.5px; background-color: white; }
 
-.card p, body .page .content div p { font-weight: 400; }
+.card h2, body .page .content > div h2 { margin-bottom: 2%; color: #4c4e61; }
+
+.card p, body .page .content > div p { font-weight: 400; color: #a3a5ae; margin-bottom: 5%; }
+
+.card .image-container, body .page .content > div .image-container { position: relative; top: 27px; left: 4px; }
+
+.card .image-container img, body .page .content > div .image-container img { float: right; height: 60px; }
 
 * { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
 
 body { font-family: "Poppins", sans-serif; font-size: 15px; background-color: #fafafa; }
 
-body .page { width: 330px; margin: auto; padding-top: 70px; }
+body .page { width: 320px; margin: auto; padding-top: 70px; padding-bottom: 30px; }
 
-body .page .intro { text-align: center; margin-bottom: 20%; border: 1px solid salmon; }
+body .page .intro { text-align: center; margin-bottom: 20%; }
+
+body .page .intro h1 { color: #4c4e61; }
 
 body .page .intro h1:first-of-type { font-weight: 200; }
 
 body .page .intro h1:last-of-type { margin-bottom: 5%; }
 
-body .page .content div:first-of-type { border-top: 4px solid #45d3d3; }
+body .page .intro p { color: #a3a5ae; }
 
-body .page .content div:nth-of-type(2) { border-top: 4px solid #ea5353; }
+body .page .content { margin-bottom: 15%; }
 
-body .page .content div:nth-of-type(3) { border-top: 4px solid #fcaf4a; }
+body .page .content > div:first-of-type { border-top: 4px solid #45d3d3; }
 
-body .page .content div:last-of-type { border-top: 4px solid #549ef2; }
+body .page .content > div:nth-of-type(2) { border-top: 4px solid #ea5353; }
+
+body .page .content > div:nth-of-type(3) { border-top: 4px solid #fcaf4a; }
+
+body .page .content > div:last-of-type { border-top: 4px solid #549ef2; }
+
+body .footer { position: absolute; bottom: 2%; }
+
+body .footer .attribution { padding: 10px; }

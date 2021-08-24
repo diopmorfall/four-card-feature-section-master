@@ -26,20 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Screenshot](images/desktop-screenshot.png)
+![Screenshot](images/mobile-screenshot.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://diopmorfall.github.io/four-card-feature-section-master/)
 
 ## My process
 
@@ -53,7 +46,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I reinforced my knowledge about mobile-first development, Sass and flexbox, which allowed me to replicate at my best the layout as required.
+I reinforced my knowledge about mobile-first development, Sass and flexbox which allowed me to replicate at my best the layout as required.
 
 ### Continued development
 
@@ -62,7 +55,6 @@ Surely I want to look back at this project to take inspiration from it for my fu
 ### Useful resources
 
 - [Box Shadow Generator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator) - This helped me understand how I can generate a shadow like the one in the design.
-
 
 ## Author
 
